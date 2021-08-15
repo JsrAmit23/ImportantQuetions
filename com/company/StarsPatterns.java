@@ -142,7 +142,7 @@ public class StarsPatterns {
             spacesCount = spacesCount - 2;
             System.out.println("");
         }
-    }
+    }/**/
 
 
 }
