@@ -146,3 +146,49 @@ public class StarsPatterns {
 
 
 }
+
+//Printing palindrome by taking users input
+
+ public static void main(String[] args)
+    {
+        int i, j, k;
+        i=1;j=1;
+        Scanner JSR= new Scanner(System.in);
+
+        k=0;
+        System.out.println(" enter the max number");
+        int n=JSR.nextInt();
+
+        System.out.print("1 1 ");
+
+
+            while (k <= n)
+            {
+                k = i + j;
+            System.out.print(k + " ");
+            i = j;
+            j = k;
+        }
+        System.out.println(" ");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
